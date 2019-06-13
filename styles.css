@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: white;
+  box-sizing: border-box;
+}
+
+ul {
+  font-size: 10px;
+}
+
+h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 32px;
+}
+
+button {
+  font-size: 10px;
+}
+
+nav {
+  background-color: #c12027;
+  color: rgba(255,255,255,0.8);
+  padding-top: 8px;
+  height: 32px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  margin: 0 16px;
+}
+
+.top-left {
+  display: inline;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header {
+ background: url("images/city-scape.svg")
+}
+
+.brand {
+  padding-top: 8px;
+}
+
+.brand .logo{
+  height: 32px;
+  width: 6%;
+  float: left;
+  margin: 0 8px;
+}
+
+.brand input[type="text"]{
+  display: inline-block;
+  height: 32px;
+  width: 72%;
+  padding-left: 8px;
+  background: rgb(31, 82, 111);
+  border: 1px solid #447090;
+}
+
+.brand button[type="submit"]{
+  height: 32px;
+  width: 3%;
+  border: 1px solid #447090;
+  margin-left: -4px;
+  background:  rgb(31, 82, 111);;
+  color: white;
+}
+
+.brand button[type="submit"] i{
+  font-size: 12px;
+}
+
+.brand button[type="button"]{
+  border: none;
+  width: 15%;
+  background: transparent;
+  color: #c9e3fc;
+}
+
+.brand button[type="button"] img{
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+.banner {
+  width: 50%;
+  height: 200px;
+  margin: 2% auto;
+}
+
+.banner p {
+  width: 50%;
+  padding: 8px;
+}
+
+.banner button {
+  background: rgb(240, 146, 51);
+  padding: 4px 8px;
+  border-radius: 16px;
+  border: none;
+}
+
