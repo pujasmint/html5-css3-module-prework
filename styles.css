@@ -21,6 +21,11 @@ button {
   font-size: 10px;
 }
 
+header, section {
+  height: 350px;
+}
+
+
 nav {
   background-color: #c12027;
   color: rgba(255,255,255,0.8);
@@ -100,20 +105,73 @@ header {
 }
 
 .banner {
-  width: 50%;
+  width: 75%;
   height: 200px;
-  margin: 2% auto;
+  margin: 0 auto;
+  padding: 64px 0;
 }
 
-.banner p {
+.banner-content {
   width: 50%;
-  padding: 8px;
+}
+
+.banner-content p {
+  padding: 48px 8px;
 }
 
 .banner button {
-  background: rgb(240, 146, 51);
-  padding: 4px 8px;
+  padding: 8px 16px;
   border-radius: 16px;
   border: none;
 }
+
+.banner img {
+  width: 330px;
+}
+
+#sign-up-button {
+  background: rgb(240, 146, 51);
+}
+
+#sign-org-button {
+  background: rgb(203, 56, 55);
+}
+
+#install-npm-button {
+  background: rgb(49, 68, 88);
+}
+
+section {
+  background: rgb(39,53,71);
+}
+
+#collaboration {
+  background-color: rgb(39,53,71);
+}
+
+#collaboration .banner-content {
+  float: right;
+}
+
+#collaboration ul {
+  margin-top: 32px;
+}
+
+#collaboration ul li {
+  margin: 0 0 16px 32px;
+}
+
+#collaboration .help-text {
+  padding: 8px 0;
+ }
+
+#whatisnpm{
+  background: url("images/forklift.svg");
+  background-size: 110%;
+}
+
+
+
+
+
 

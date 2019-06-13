@@ -22,7 +22,6 @@
           <li><a href="#">support</a></li>
         </ul>
       </nav>
-      
       <header>
         <div class="brand">
             <img class="logo" src="images/npm-logo.png" alt="npm log" class="npm-logo"/>
@@ -31,32 +30,38 @@
             <button type="button"><span>sign up or login</span><img src="images/bear-logo.png"></img></button>
         </div>
         <div class="banner">
-         <h1>Build amazing things</h1>
-         <p>npm is the package manager for Javascript and the world's largest software registry. Discover packages of reusable code - and assemble them in powerful new ways.</p>
-         <button>Sign up for npm</button>
+         <div class="banner-content">
+            <h1>Build amazing things</h1>
+            <p>npm is the package manager for Javascript and the world's largest software registry. Discover packages of reusable code - and assemble them in powerful new ways.</p>
+            <button id="sign-up-button">Sign up for npm</button>
+         </div>   
         </div>
       </header>
 
-      <section>
-        <div id="sction1">
-          <img src="/Users/pujasingh/Desktop/Front end Develeper /Ironhack practice/lab-html-module-exercise-master/starter-code/images/collaboration.svg" height="200" width="300"/>
-          <h1>npm orgs is powerful collaboration - for free </h1>
-          <ul class="medium-links">
-          <li>Encourage code discovery and reuse within teams</li>
-          <li>Publish and control access to your own namespace</li>
-          <li>Manage public and private with the same workflow</li>
-          </ul>
-          <p> <a href="#">sign up for Orgs</a></p>
-          <p>or, <a href="#">Learn more about Orgs</a></p>
-        </div>
+      <section id="collaboration">
+        <div class="banner">
+            <img src="./images/collaboration.svg">
+            <div class="banner-content">  
+              <h1>npm orgs is powerful collaboration - for free </h1>
+              <ul>
+              <li>Encourage code discovery and reuse within teams</li>
+              <li>Publish and control access to your own namespace</li>
+              <li>Manage public and private with the same workflow</li>
+              </ul>
+              <button id="sign-org-button">sign up for Orgs</button>
+              <p class="help-text">or, Learn more about Orgs</p>
+            </div>
+          </div>
       </section>
 
-      <section>
-        <div id="section2">
-          <h2>What is npm?</h2>
-          <p>Use npm to install, share and distribute code; manage dependencies in your projects; and share & recieve feedback with others.</p>
-          <a href="#">Install npm</a>
-        </div>
+      <section id="whatisnpm">
+          <div class="banner">
+              <div class="banner-content">
+                 <h1>What is npm?</h1>
+                 <p>Use npm to install, share and distribute code; manage dependencies in your projects; and share & recieve feedback with others.</p>
+                 <button id="install-npm-button">Install npm</button>
+              </div>   
+             </div>
       </section>
 
       <section>
