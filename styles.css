@@ -17,6 +17,10 @@ h1 {
   font-size: 32px;
 }
 
+p {
+  font-size: 16px;
+}
+
 button {
   font-size: 10px;
 }
@@ -169,6 +173,52 @@ section {
   background: url("images/forklift.svg");
   background-size: 110%;
 }
+
+
+#whatcanyoumake {
+  background: white;
+}
+
+#whatcanyoumake p {
+  margin-top: 8px; 
+  color: rgb(135, 145, 156);
+}
+
+.banner-heading {
+  text-align: center;
+}
+
+.banner-heading h1{
+  color: rgb(83, 88, 98);
+}
+
+
+.make-options {
+  margin-top: 16px;
+}
+
+.make-options-items {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 24px;
+}
+
+.make-options-items img {
+  width: 50%
+}
+
+.make-options-items h2 {
+  color: rgb(83, 88, 98);
+  font-size: 16px;
+}
+.make-options-items a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
 
 
 
